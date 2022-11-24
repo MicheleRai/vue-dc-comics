@@ -31,6 +31,9 @@ export default {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    img{
+      height: 80%;
+    };
 
     ul {
       display: flex;
@@ -43,19 +46,19 @@ export default {
       li{
         height: 100%;
         a{
-        text-decoration: none;
-        color: black;
-        border-bottom: 3px solid white;
-        height: 100%;
-        display: flex;
-        align-items: center;
+          text-decoration: none;
+          color: black;
+          border-bottom: 3px solid white;
+          height: 100%;
+          display: flex;
+          align-items: center;
 
-        &:hover{
-          color: #0282F9;
-          border-color: #0282F9;
-        }
-      }
-      }
-    }
+          &:hover{
+            color: #0282F9;
+            border-color: #0282F9;
+          };
+        };
+      };
+    };
   };
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div class="container-icon">
     <ul>
-      <li><a href="!"><img src="img/buy-comics-digital-comics.png" alt="1"> DIGITAL COMICS</a></li>
-      <li><a href="!"><img src="img/buy-comics-merchandise.png" alt="1"> DC MERCHANDISE</a></li>
-      <li><a href="!"><img src="img/buy-comics-subscriptions.png" alt="1"> SUBSCRIPTION</a></li>
-      <li><a href="!"><img src="img/buy-comics-shop-locator.png" alt=""> COMIC SHOP LOCATOR</a></li>
-      <li><a href="!"><img src="img/buy-dc-power-visa.svg" alt="1"> DC POWER VISA</a></li>
+      <li><a href="!"><img src="img/buy-comics-digital-comics.png" alt="1"><span>DIGITAL COMICS</span></a></li>
+      <li><a href="!"><img src="img/buy-comics-merchandise.png" alt="1"><span>DC MERCHANDISE</span></a></li>
+      <li><a href="!"><img src="img/buy-comics-subscriptions.png" alt="1"><span> SUBSCRIPTION</span></a></li>
+      <li><a href="!"><img src="img/buy-comics-shop-locator.png" alt="1"><span>COMIC SHOP LOCATOR</span></a></li>
+      <li><a href="!"><img src="img/buy-dc-power-visa.svg" alt="1"><span>DC POWER VISA</span></a></li>
     </ul>
   </div>
 </template>
@@ -31,12 +31,30 @@ export default {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      gap: 2rem;
+      gap: 5rem;
+      height: 100%;
 
-      a{
-        text-decoration: none;
-        color: white;
-      }
-    }
+      li{
+        height: 100%;
+
+        a{
+          text-decoration: none;
+          color: white;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          border-bottom: 5px solid #0282F9;
+          height: 100%;
+
+          &:hover{
+            border-color: white;
+          };
+
+          img{
+            height: 80px;
+          };
+        };
+      };
+    };
   };
 </style>
