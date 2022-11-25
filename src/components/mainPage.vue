@@ -11,7 +11,7 @@
         v-for="objCard in arrCards"
         :key="objCard.titolo"
         class="cards-container"
-        :img-url="objCard.thumb"
+        :image-url="objCard.thumb"
         :title="objCard.series"
       />
     </div>
@@ -140,6 +140,7 @@ export default {
       .cards-container{
         flex: 0 0 25%;
         margin:1rem 0;
+        padding-top: 1rem;
       }
     }
   };

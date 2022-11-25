@@ -51,13 +51,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
 
     .content-icon{
     max-width: 1200px;
       ul{
       list-style: none;
       display: flex;
+      flex-wrap: nowrap;
       align-items: center;
       justify-content: space-around;
       gap: 5rem;
@@ -65,26 +65,33 @@ export default {
 
       li{
         height: 100%;
+        flex: 0 0 20%;
+        padding: 4rem 0;
+        border-bottom: 5px solid #0282F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:hover{
+          border-color: white;
+        };
 
         a{
           text-decoration: none;
           color: white;
           display: flex;
+          flex-wrap: nowrap;
           align-items: center;
           gap: 1rem;
-          border-bottom: 5px solid #0282F9;
           height: 100%;
-
-          &:hover{
-            border-color: white;
-          };
 
           img{
             height: 80px;
           };
         };
       };
+      };
     };
-    }
-  };
+  }
 </style>

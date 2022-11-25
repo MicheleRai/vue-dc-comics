@@ -1,19 +1,28 @@
 <template>
-  <div class="card">
+  <a
+    class="card"
+    href="!"
+  >
     <img
-      :src="imgUrl"
+      :src="imageUrl"
       alt="fumetto"
     >
     <h3>{{ title }}</h3>
-  </div>
+  </a>
 </template>
 
 <script>
 export default {
   name: 'CardPage',
   props: {
-    imgUrl: String,
-    title: String,
+    imageUrl: {
+      type: String,
+      default: String,
+    },
+    title: {
+      type: String,
+      default: String,
+    },
   },
 };
 </script>
@@ -21,5 +30,12 @@ export default {
 <style lang="scss" scoped>
   .card{
     text-align: center;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      background: white;
+      color: #0282F9;
+    }
   }
 </style>
