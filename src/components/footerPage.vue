@@ -46,6 +46,7 @@
       </div>
     </div>
     <div class="social-container">
+      <div class="social-content">
         <button>SIGN-UP NOW!</button>
         <div class="social-icon">
           <span>FOLLOW US:</span>
@@ -56,6 +57,7 @@
           <a href="!"><img src="img\footer-youtube.png" alt="youtube"></a>
         </div>
       </div>
+    </div>
   </footer>
 </template>
 
@@ -84,6 +86,7 @@ export default {
       margin: auto;
       gap: 3rem;
       padding-top: 5rem;
+      max-width: 1200px;
 
       h3{
         margin-top: 1rem;
@@ -106,45 +109,52 @@ export default {
     .social-container{
         background-color: #303030;
         height: 100px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: nowrap;
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
+        display: flex;
+        align-items: center;
 
-        button{
-          color: white;
-          background-color: #303030;
-          border-color: #0282F9;
-          padding: 9px 5px;
-
-          &:hover{
-            background-color: white;
-            color: black;
-          }
-        }
-        .social-icon{
-          display: flex;
-          align-items: center;
-          gap: 1.7rem;
-
-          span{
-            color: #0282F9
-          };
-          img{
-            cursor: pointer;
-            border: 3px solid #303030;
-            border-radius: 100%;
+       .social-content{
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+          button{
+            color: white;
+            background-color: #303030;
+            border-color: #0282F9;
+            padding: 9px 5px;
 
             &:hover{
-              border-color: #0282F9;
               background-color: white;
+              color: black;
+            }
+          }
+          .social-icon{
+            display: flex;
+            align-items: center;
+            gap: 1.7rem;
+
+            span{
+              color: #0282F9
+            };
+            img{
+              cursor: pointer;
+              border: 3px solid #303030;
+              border-radius: 100%;
+
+              &:hover{
+                border-color: #0282F9;
+                background-color: white;
+              };
             };
           };
-        }
+        };
       };
   };
 </style>

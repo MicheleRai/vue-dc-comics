@@ -1,6 +1,8 @@
 <template>
   <div class="container-main">
-    <h1> --> Content goes here &lt;-- </h1>
+    <div class="content-main">
+      <h1> --> Content goes here &lt;-- </h1>
+    </div>
   </div>
 </template>
 
@@ -19,5 +21,9 @@ export default {
     justify-content: center;
     align-items: center;
     height: 200px;
+    .content-main{
+      max-width: 1200px;
+      margin: auto
+    }
   };
 </style>

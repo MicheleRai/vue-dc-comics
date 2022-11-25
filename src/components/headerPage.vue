@@ -28,9 +28,11 @@ export default {
   .container-header{
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 70px;
+    max-width: 1200px;
+    margin: auto;
     img{
       height: 80%;
     };
