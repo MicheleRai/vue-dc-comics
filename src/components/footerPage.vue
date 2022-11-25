@@ -71,22 +71,26 @@ export default {
   footer{
     font-family: 'Roboto', sans-serif;
     background: black;
-    background-image: url(../../public/img/dc-logo-bg.png), url(../../public/img/footer-bg.jpg) ;
-    background-position: right center, center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: auto, cover;
+    background-image: url(../../public/img/footer-bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    height: 40vh;
-    margin: auto;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 
     .footer-container{
+      background-image: url(../../public/img/dc-logo-bg.png);
+      background-position: right center;
+      background-repeat: no-repeat;
+      background-size: auto;
       display: flex;
-      max-width: 1500px;
-      margin: auto;
       gap: 3rem;
-      padding-top: 5rem;
+      padding-top: 2rem;
       max-width: 1200px;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 2rem;
 
       h3{
         margin-top: 1rem;
@@ -109,12 +113,9 @@ export default {
     .social-container{
         background-color: #303030;
         height: 100px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
         display: flex;
         align-items: center;
+        padding: auto 20rem;
 
        .social-content{
         max-width: 1200px;
