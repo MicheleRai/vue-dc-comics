@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      src="imgUrl"
+      :src="imgUrl"
       alt="fumetto"
     >
     <h3>{{ title }}</h3>
@@ -11,7 +11,7 @@
 <script>
 export default {
   name: 'CardPage',
-  proprs: {
+  props: {
     imgUrl: String,
     title: String,
   },

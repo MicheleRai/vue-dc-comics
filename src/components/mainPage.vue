@@ -11,8 +11,8 @@
         v-for="objCard in arrCards"
         :key="objCard.titolo"
         class="cards-container"
-        :img-url="objCard.src"
-        :title="objCard.titolo"
+        :img-url="objCard.thumb"
+        :title="objCard.series"
       />
     </div>
   </div>
