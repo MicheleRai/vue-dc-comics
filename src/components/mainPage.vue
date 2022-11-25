@@ -8,9 +8,11 @@
         CURRENT SERIES
       </h1>
       <cardPage
-        v-for="i in 12"
-        :key="i"
+        v-for="objCard in arrCards"
+        :key="objCard.titolo"
         class="cards-container"
+        :img-url="objCard.src"
+        :title="objCard.titolo"
       />
     </div>
   </div>

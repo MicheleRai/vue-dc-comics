@@ -1,9 +1,9 @@
 <template>
   <body>
-    <headerPage/>
-    <mainPage/>
-    <iconPage/>
-    <footerPage/>
+    <headerPage />
+    <mainPage />
+    <iconPage />
+    <footerPage />
   </body>
 </template>
 
