@@ -1,7 +1,10 @@
 <template>
   <header>
     <div class="container-header">
-      <img src="img/dc-logo.png" alt="dc-logo">
+      <img
+        src="img/dc-logo.png"
+        alt="dc-logo"
+      >
       <ul class="header-text">
         <li><a href="!">CARACTERS</a></li>
         <li><a href="!">COMICS</a></li>
@@ -20,7 +23,7 @@
 
 <script>
 export default {
-  name: 'headerPage',
+  name: 'HeaderPage',
 };
 </script>
 

@@ -50,11 +50,26 @@
         <button>SIGN-UP NOW!</button>
         <div class="social-icon">
           <span>FOLLOW US:</span>
-          <a href="!"><img src="img\footer-facebook.png" alt="facebook"></a>
-          <a href="!"><img src="img\footer-periscope.png" alt="periscope"></a>
-          <a href="!"><img src="img\footer-pinterest.png" alt="pinterserest"></a>
-          <a href="!"><img src="img\footer-twitter.png" alt="twitter"></a>
-          <a href="!"><img src="img\footer-youtube.png" alt="youtube"></a>
+          <a href="!"><img
+            src="img\footer-facebook.png"
+            alt="facebook"
+          ></a>
+          <a href="!"><img
+            src="img\footer-periscope.png"
+            alt="periscope"
+          ></a>
+          <a href="!"><img
+            src="img\footer-pinterest.png"
+            alt="pinterserest"
+          ></a>
+          <a href="!"><img
+            src="img\footer-twitter.png"
+            alt="twitter"
+          ></a>
+          <a href="!"><img
+            src="img\footer-youtube.png"
+            alt="youtube"
+          ></a>
         </div>
       </div>
     </div>
@@ -63,7 +78,7 @@
 
 <script>
 export default {
-  name: 'footerPage',
+  name: 'FooterPage',
 };
 </script>
 
